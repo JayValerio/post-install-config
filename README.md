@@ -64,7 +64,7 @@ Roles determine the permissions agents have in each department they access. Perm
 </p>
 
 <p>
-  For this Example we will be creating our own role, Supreme Admin, to showcase how it works.
+  For this Example we will be creating our own role "Supreme Admin" to showcase how it works.
 </p>
 
 <p>
@@ -97,15 +97,45 @@ Roles determine the permissions agents have in each department they access. Perm
   <h2>Configuring Departments</h2>
 </p>
 
-<p>To Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+<p>To Configure Departments (Ticket Visibility, Mainenance vs Support vs System Administrators.)
 go to -> Admin Panel -> Agents -> Departments -> Add New Department</p>
 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/1397434b-fbfe-4cf3-9a38-6d1135649588)
 
+</p>
 
+<p>
+  Since tickets are routed through Departments in the help desk, there are many settings that can be set for each Department. For this example we will create our own Department "System Administrators" to see how it differs from other departments.
+</p>
 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/58bbeab5-66ed-4ac9-86e3-adfb911cf59e)
 
+  ![image](https://github.com/user-attachments/assets/13dc60d4-d20b-404b-89d2-8ca822a6c496)
 
+</p>
 
+<p>
+ <p> osTicket Department Settings (Simplified)</p>
+<p>Parent Department: If nested, agents with access to the parent can view tickets in child departments, but not vice versa.</p>
+<p>Status: Determines if the department is active and can receive tickets.</p>
+<p>Active: Available for ticket transfers.</p>
+<p>Archived: No longer in use; reopened tickets create new ones under the default department.</p>
+<p>Disabled: Cannot receive tickets; auto-routed tickets go to the default department.</p>
+<p>Name & Type: Department name and visibility settings (Public or Private). Private departments hide assignments and signatures.</p>
+<p>SLA & Schedule: Defines response time expectations and follows set schedules.</p>
+<p>Manager: Assign a manager to receive special alerts.</p>
+<p>Ticket Assignment: Restrict assignments to department members.</p>
+<p>Claim on Response & Reopen Auto Assignment: Control auto-claim and ticket reassignment rules.</p>
+<p>Outgoing Email Settings</p>
+<p>Outgoing Email: Email used for agent responses.</p>
+<p>Template Set: Email templates for auto-responses and alerts.</p>
+<p>Auto-Responder Settings: Customize auto-replies for new tickets and messages.</p>
+<p>Auto-Response Email: Email used only for auto-replies.</p>
+</p>
 
 
 
