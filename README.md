@@ -43,7 +43,8 @@ Our first step is to configure our Departments, Teams and Roles,<br />
 <br />
 
 <p>
-  To Configure Roles (for grouping permissions) go to ->
+  To Configure Roles (for grouping permissions)<br />
+  go to ->
 Admin Panel -> Agents -> Roles -> Add New Role
 
 </p>
@@ -56,7 +57,8 @@ Admin Panel -> Agents -> Roles -> Add New Role
 
 <p>
   
-  ![image](https://github.com/user-attachments/assets/8d3295bf-0f28-4af6-aa40-ac2443bf4499)
+![image](https://github.com/user-attachments/assets/19de8c40-88fb-480b-a74f-e701b449ed3b)
+
 
 </p>
 <p>
@@ -97,7 +99,7 @@ Roles determine the permissions agents have in each department they access. Perm
   <h2>Configuring Departments</h2>
 </p>
 
-<p>To Configure Departments (Ticket Visibility, Mainenance vs Support vs System Administrators.)
+<p>To Configure Departments (Ticket Visibility, Mainenance vs Support vs System Administrators.)<br />
 go to -> Admin Panel -> Agents -> Departments -> Add New Department</p>
 
 <p>
@@ -119,22 +121,42 @@ go to -> Admin Panel -> Agents -> Departments -> Add New Department</p>
 </p>
 
 <p>
- <p> osTicket Department Settings (Simplified)</p>
-<p>Parent Department: If nested, agents with access to the parent can view tickets in child departments, but not vice versa.</p>
-<p>Status: Determines if the department is active and can receive tickets.</p>
-<p>Active: Available for ticket transfers.</p>
-<p>Archived: No longer in use; reopened tickets create new ones under the default department.</p>
-<p>Disabled: Cannot receive tickets; auto-routed tickets go to the default department.</p>
-<p>Name & Type: Department name and visibility settings (Public or Private). Private departments hide assignments and signatures.</p>
-<p>SLA & Schedule: Defines response time expectations and follows set schedules.</p>
-<p>Manager: Assign a manager to receive special alerts.</p>
-<p>Ticket Assignment: Restrict assignments to department members.</p>
-<p>Claim on Response & Reopen Auto Assignment: Control auto-claim and ticket reassignment rules.</p>
-<p>Outgoing Email Settings</p>
-<p>Outgoing Email: Email used for agent responses.</p>
-<p>Template Set: Email templates for auto-responses and alerts.</p>
-<p>Auto-Responder Settings: Customize auto-replies for new tickets and messages.</p>
-<p>Auto-Response Email: Email used only for auto-replies.</p>
+ <p><h3>osTicket Department Settings (Simplified)</h3></p>
+<p><h5>Parent Department:</h5> If nested, agents with access to the parent can view tickets in child departments, but not vice versa.</p>
+<p><h5>Status:</h5> Determines if the department is active and can receive tickets.</p>
+<p><h5>Active:</h5> Available for ticket transfers.</p>
+<p><h5>Archived:</h5> No longer in use; reopened tickets create new ones under the default department.</p>
+<p><h5>Disabled:</h5> Cannot receive tickets; auto-routed tickets go to the default department.</p>
+<p><h5>Name & Type:</h5> Department name and visibility settings (Public or Private). Private departments hide assignments and signatures.</p>
+<p><h5>SLA & Schedule:</h5> Defines response time expectations and follows set schedules.</p>
+<p><h5>Manager:</h5> Assign a manager to receive special alerts.</p>
+<p><h5>Ticket Assignment:</h5> Restrict assignments to department members.</p>
+<p><h5>Claim on Response & Reopen Auto Assignment:</h5> Control auto-claim and ticket reassignment rules.</p>
+<p><h3>Outgoing Email Settings</h3></p>
+<p><h5>Outgoing Email:</h5> Email used for agent responses.</p>
+<p><h5>Template Set:</h5> Email templates for auto-responses and alerts.</p>
+<p><h5>Auto-Responder Settings:</h5> Customize auto-replies for new tickets and messages.</p>
+<p><h5>Auto-Response Email:</h5> Email used only for auto-replies.</p>
+<p>The "Access" tab allows us add memebers to this department. </p>
+</p>
+
+<p>
+  <h2>Configuring Teams</h2>
+</p>
+
+
+<p>
+  Configure Teams(Pull Agents from different Departments)<br />
+got to -> Admin Panel -> Agents -> Teams -> Add New Team
+
+</p>
+
+![image](https://github.com/user-attachments/assets/9c6b0a08-5991-462a-8810-51e651fd0496)
+
+<br />
+
+<p>
+  Teams in osTicket allow agents from different departments to collaborate on specific issues or users via Help Topics or Ticket Filters. Team assignments override department-based access rules, enabling specialists from various departments to work together on designated tickets.
 </p>
 
 
@@ -144,11 +166,19 @@ go to -> Admin Panel -> Agents -> Departments -> Add New Department</p>
 
 
 
-<br />
+
+
+
+
+
+
+
+
+
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
