@@ -199,6 +199,8 @@ Jorge Doe (Dept: Support)
 
   ![image](https://github.com/user-attachments/assets/b47fac8f-0c55-4cb6-bc2d-b552eff5268b)
 
+  ![image](https://github.com/user-attachments/assets/31347891-18d3-4e35-abc2-59c52a28e913)
+
 
 </p>
 <p>
