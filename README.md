@@ -198,19 +198,32 @@ Jorge Doe (Dept: Support)
   ![image](https://github.com/user-attachments/assets/78718cb0-b622-45cb-9462-171abe59e9e4)
 
 </p>
+<p>
+  <h3>Agent Access & Roles</h3>
+  
+Agents handle tickets and must be assigned a Primary Department and Primary Role for tasks within that department. Additional department access and roles can be configured in the Access tab of the Agent’s profile. Agents without direct department access can have Primary Role permissions for assigned or referred tickets if enabled; otherwise, they will have view-only access to those tickets.
+
+<p><h3>Resetting an Agent’s Password</h3></p>
+<p><h5>Admins can reset an agent’s password from the Account page:</h5></p>
+
+<p>- Send a password reset email (only if the agent has previously set a password).</p>
+<p>- Manually set a password and notify the agent. An option is available to force a password reset on the next login.</p>
+<p><h3>Agent Status & Settings</h3></p>
+<p>- Locked/Disabled: Agent cannot log in, receive assignments, or email alerts.</p>
+<p>- Administrator: Grants access to the Admin Panel for global configurations.</p>
+<p>- Limit Ticket Access: Restricts agents to only see tickets assigned directly to them or their team.</p>
+<p>- Vacation Mode: Prevents ticket assignments and alerts while allowing login. Must be enabled/disabled manually.</p>
+<p><h3>Agent Permissions</h3></p>
+<p>- Users: Create, edit, delete users, and manage accounts.</p>
+<p>- User Directory: View the list of users.</p>
+<p>- Organizations: Create, edit, and delete organizations.</p>
+<p>- Knowledgebase: Manage FAQs and categories.</p>
+<p><3>Miscellaneous:</h3></p>
+<p>- Banlist: Add/remove emails.</p>
+<p>- Search: View all tickets in search results.</p>
+<p>- Stats: View agent statistics for permitted departments.</p>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
+</p>
 </p>
 
 
