@@ -269,7 +269,52 @@ Darius
 </p>
 </p>
 </p>
+<p>
 
+<p>><h2>Configure SLA</h2></p>
+
+<p>Go to -> Admin Panel -> Manage -> SLA -> Add New SLA Plan</p><br />
+
+<p>
+  Examples:<br />
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)<br />
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)<br />
+Sev-C (Grace Period: 8 hours, Business Hours)<br />
+</p>
+<p>
+
+![image](https://github.com/user-attachments/assets/e6f3debf-304b-4847-b9dd-5d4531222f13)
+
+![image](https://github.com/user-attachments/assets/fa7d948d-5c0c-4991-aaf9-9a6c2b66b0b2)
+
+![image](https://github.com/user-attachments/assets/622e6bc8-9d19-4d57-97a5-8fc59f88d807)
+
+![image](https://github.com/user-attachments/assets/6fb77791-a55b-49b0-af8e-37529ca493f3)
+
+![image](https://github.com/user-attachments/assets/94852d7a-948c-4535-8b70-ffff4cc3efec)
+
+</p>
+<p>
+  <p><h3>Creating an SLA Plan</h3></p>
+<p>SLA (Service Level Agreement) Plans in osTicket define the expected time to resolve tickets.<br />
+  They can be created under Admin Panel > Manage > SLA Plans by clicking "Add New SLA Plan."</p>
+
+<h4>SLA Plan Settings:</h4>
+
+<p>- Transient: Can be overridden when a ticket is transferred or Help Topic changes.</p>
+<p>- Assignment: SLAs can be set for Departments, Ticket Filters, and Help Topics. The System Default SLA is under Admin Panel > Settings > Tickets.</p>
+<h4>Overrides:</h4>
+<p>- Staff-Created Tickets: Agents can manually select an SLA or set a due date, which cannot be overridden.</p>
+<p>- Client-Created Tickets: Follow the SLA linked to the Help Topic unless a Ticket Filter overrides it.</p>
+<p>- Email Tickets: The SLA is determined by the email’s assigned department unless overridden by a Ticket Filter.</p>
+<h4>SLA Plan Details:</h4>
+
+<p>- Name: Identifies the plan.</p>
+<p>- Grace Period: Time (in hours) before a ticket is marked overdue.</p>
+<p>- Status: Active or Disabled.</p>
+<p>- Overdue Alerts: Option to disable staff alerts for overdue tickets.</p>
+</p>
+</p>
 
 
 
