@@ -188,7 +188,7 @@ Note: In the Members tab you can assign different Agents to the team.
   <p>
     <h2>Configure Agents (Employees)</h2>
   </p>
-Go to -> Admin Panel -> Agents -> Add New Agent<br />
+<p>Go to -> Admin Panel -> Agents -> Add New Agent</p><br />
 Examples:<br />
 
 Jenny Doe (Dept: System Administrator)<br />
@@ -227,6 +227,45 @@ Agents handle tickets and must be assigned a Primary Department and Primary Role
 <p>- Banlist: Add/remove emails.</p>
 <p>- Search: View all tickets in search results.</p>
 <p>- Stats: View agent statistics for permitted departments.</p>
+
+<p>
+  <p><h2>Configure Users (Consumer)</h2></p>
+<p>Go to -> Agent Panel -> Users -> Add User</p><br />
+Examples:<br />
+<p>Caytlyn<br />
+Darius
+ </p> 
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/74207bb6-ec59-4a31-925d-6c4e8f22186a)
+
+  ![image](https://github.com/user-attachments/assets/394523b4-d45d-4d7b-951f-b7306c52c99a)
+
+  ![image](https://github.com/user-attachments/assets/27b8c274-bc03-4f27-9044-17bde3dbeee7)
+
+  ![image](https://github.com/user-attachments/assets/eaa62867-3d1a-498d-963c-3d8463801016)
+
+</p>
+<p><p><h3>User Accounts & Directory</h3></p>
+<p>Users can create accounts to submit and track tickets. Each user is identified by their email address, which is stored in the User Directory in the Agent Panel. Agents can search for users, manage their tickets, and associate them with Organizations. Agents can also be assigned as Account Managers for organization-related tickets.</p>
+
+<p><h4>Adding Users</h4></p>
+<p><h5>Users can be added individually or imported via CSV file or copy/paste:</h5></p>
+
+<p>- Copy/Paste Import: Enter names and emails in a text list, separated by commas, then paste into the User Directory.</p>
+<p>- CSV Import: Upload a CSV file with user details, ensuring column headers match osTicket’s Contact Information form.</p>
+<p><h4>Guest vs. Registered Users</h4></p>
+<p>- Guest Users: Can submit tickets without registering.</p>
+<p>- Registered Users: Must verify their email and can view all their tickets in the help desk. Agents can add users manually but must send a registration email for verification.</p>
+<p><h4>Managing Registered Users</h4></p>
+<p><h5>Agents can manage user access from the Manage Account button in the User Profile:<h5></p>
+
+<p>- Reset Password: Admins can manually set a new password and notify the user.</p>
+<p>- Lock User: Restricts login access.</p>
+<p>- Force Password Reset: Users must change their password upon next login.</p>
+</p>
+</p>
+
 </p>
 </p>
 </p>
