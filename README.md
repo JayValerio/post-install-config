@@ -186,7 +186,7 @@ Note: In the Members tab you can assign different Agents to the team.
 
 <p>
   <p>
-    <h2>Configure Agents (Employees)</h2>
+    <h2>Configuring Agents (Employees)</h2>
   </p>
 <p>Go to -> Admin Panel -> Agents -> Add New Agent</p><br />
 Examples:<br />
@@ -229,7 +229,7 @@ Agents handle tickets and must be assigned a Primary Department and Primary Role
 <p>- Stats: View agent statistics for permitted departments.</p>
 
 <p>
-  <p><h2>Configure Users (Consumer)</h2></p>
+  <p><h2>Configuring Users (Consumer)</h2></p>
 <p>Go to -> Agent Panel -> Users -> Add User</p><br />
 Examples:<br />
 <p>Caytlyn<br />
@@ -271,7 +271,7 @@ Darius
 </p>
 <p>
 
-<p>><h2>Configure SLA</h2></p>
+<p>><h2>Configuring SLA's</h2></p>
 
 <p>Go to -> Admin Panel -> Manage -> SLA -> Add New SLA Plan</p><br />
 
@@ -314,6 +314,36 @@ Sev-C (Grace Period: 8 hours, Business Hours)<br />
 <p>- Status: Active or Disabled.</p>
 <p>- Overdue Alerts: Option to disable staff alerts for overdue tickets.</p>
 </p>
+
+<p>
+  <p><h2>Configuring Help Topics (For when users create a ticket)</h2></p>
+<p>Go to -> Admin Panel -> Manage -> Help Topics -> Add New Help Topic</p>
+
+Examples:
+<p>- Business Critical Outage</p>
+<p>- Personal Computer Issues</p>
+<p>- Equipment Request</p>
+<p>- Password Reset</p>
+<p>- Other</p>
+
+<p>
+
+  ![image](https://github.com/user-attachments/assets/2ec595c6-258d-47b3-a7a2-b5d61dc76495)
+
+  ![image](https://github.com/user-attachments/assets/37db247a-1f87-464c-8dad-2bd2592491ea)
+
+  ![image](https://github.com/user-attachments/assets/3cd00d3c-6bb2-4992-b363-05212812b5b9)
+
+  ![image](https://github.com/user-attachments/assets/7223321a-9a18-4737-a369-31b608e45df5)
+  
+  ![image](https://github.com/user-attachments/assets/566639f4-6522-449d-8f74-6abe3276d8d3)
+
+  ![image](https://github.com/user-attachments/assets/8b2cb735-d147-4ac6-a5c2-46e6d54e586f)
+
+
+</p>
+</p>
+
 </p>
 
 
