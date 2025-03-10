@@ -342,41 +342,52 @@ Examples:
 
 
 </p>
-</p>
-
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p>
+  <p>
+    Help Topics streamline ticket routing, ensuring proper assignment and quick responses. You can create multiple Help Topics and nest them for better organization (e.g., Human Resources > Payroll).
+  </p>
 
+<p>They also determine which Department receives the ticket, which Agents can access it, and other settings like SLA and priority. Users select a Help Topic when submitting tickets via the client portal or internally, but they don’t see the backend configurations</p>
+
+<p><h3>Setting Up Help Topics</h3>
+Navigate to Admin Panel > Manage > Help Topics to add or edit a Help Topic.</p>
+
+<h4>Help Topic Information Tab</h4>
+<p>- Topic Name: Appears to end-users.</p>
+<p>- Status: Must be "Active" to be used.</p>
+<p>- Type: "Private" topics are only visible to Agents creating tickets internally.</p>
+<p>- Parent Topic: Nest topics for better organization; child topic settings override parent settings.</p>
+<h4>New Ticket Options Tab</h4>
+<p>- Department: Assigns the ticket to a specific department. </p>
+<p>- Ticket Number Format: Custom formats can be applied.</p>
+<p>- Status & Priority: Determines sorting order in the Open Tickets queue.</p>
+<p>- SLA Plan: Overrides the department’s default SLA if needed.</p>
+<p>- Thank You Page: Customize the page shown after ticket submission.</p>
+<p>- Auto-Assign: Assign tickets to a specific Agent or team.</p>
+<p>- Auto-Response: Disable if no automatic response is needed.</p>
+<h4>Forms Tab</h4>
+<p>- Custom Forms: Attach additional fields to collect extra information.</p>
+<p>- Field Control: Disable specific fields per Help Topic as needed.</p>
+<p>This setup ensures efficient ticket management and improves the end-user experience.</p>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  There are dozens of other features to cover with osTicket, the ones we covered today will provide as an example for how ticket life cycles function.
 </p>
-<br />
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
