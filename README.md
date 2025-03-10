@@ -158,11 +158,60 @@ got to -> Admin Panel -> Agents -> Teams -> Add New Team
 <p>
   Teams in osTicket allow agents from different departments to collaborate on specific issues or users via Help Topics or Ticket Filters. Team assignments override department-based access rules, enabling specialists from various departments to work together on designated tickets.
 </p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/6a770270-def0-4e34-8c14-884b87df2401)
+
+</p>
+
+<p>
+  For this example we will create a team specifically handeling a companies online app.
+
+Note: In the Members tab you can assign different Agents to the team.
+</p>
+
+<p>
+  <p><h2>Allow anyone to create tickets</h2></p>
+  
+<p>Admin Panel -> Settings -> User Settings<br />
+  (UNCHECK: "Registration Required: Require registration and login to create tickets")<br />
+  
+  This will allow anyone to create a ticket, we will use this for examples later.
+ </p>
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/a877e56f-5d4d-46c7-8a1f-c30b922489f1)
+
+</p>
+
+<p>
+  <p>
+    <h2>Configure Agents (Employees)</h2>
+  </p>
+Go to -> Admin Panel -> Agents -> Add New Agent<br />
+Examples:<br />
+
+Jenny Doe (Dept: SysAdmins)<br />
+Jorge Doe (Dept: Support)
+<p>
+  
+  ![image](https://github.com/user-attachments/assets/78718cb0-b622-45cb-9462-171abe59e9e4)
+
+</p>
+</p>
 
 
 
 
 
+
+
+
+
+
+
+
+</p>
 
 
 
