@@ -191,11 +191,14 @@ Note: In the Members tab you can assign different Agents to the team.
 Go to -> Admin Panel -> Agents -> Add New Agent<br />
 Examples:<br />
 
-Jenny Doe (Dept: SysAdmins)<br />
+Jenny Doe (Dept: System Administrator)<br />
 Jorge Doe (Dept: Support)
 <p>
   
   ![image](https://github.com/user-attachments/assets/78718cb0-b622-45cb-9462-171abe59e9e4)
+
+  ![image](https://github.com/user-attachments/assets/b47fac8f-0c55-4cb6-bc2d-b552eff5268b)
+
 
 </p>
 <p>
@@ -218,7 +221,7 @@ Agents handle tickets and must be assigned a Primary Department and Primary Role
 <p>- User Directory: View the list of users.</p>
 <p>- Organizations: Create, edit, and delete organizations.</p>
 <p>- Knowledgebase: Manage FAQs and categories.</p>
-<p><3>Miscellaneous:</h3></p>
+<p><h3>Miscellaneous:</h3></p>
 <p>- Banlist: Add/remove emails.</p>
 <p>- Search: View all tickets in search results.</p>
 <p>- Stats: View agent statistics for permitted departments.</p>
