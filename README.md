@@ -138,6 +138,8 @@ go to -> Admin Panel -> Agents -> Departments -> Add New Department</p>
 <p><h5>Auto-Responder Settings:</h5> Customize auto-replies for new tickets and messages.</p>
 <p><h5>Auto-Response Email:</h5> Email used only for auto-replies.</p>
 <p>The "Access" tab allows us add memebers to this department. </p>
+
+<p><h5>If you wish to use this to practice opening and closing tickets make sure to remove/configure your "maintenance" department accordingly as it can interfere with our other departments.</h5></p>
 </p>
 
 <p>
